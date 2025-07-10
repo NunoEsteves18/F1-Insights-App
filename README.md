@@ -40,15 +40,15 @@ It's highly recommended to use a virtual environment to manage your project's de
 python -m venv venv
 ```
 Activate the virtual environment:
-    * ** On Windows (Command Prompt/CMD):
+    * ** On Windows (Command Prompt/CMD):**
     ```bash 
         .\venv\Scripts\activate
     ```
-    * ** On Windows (PowerShell):
+    * ** On Windows (PowerShell):**
     ```bash 
         .\venv\Scripts\Activate.ps1
     ```
-    * ** On macOS/Linux:
+    * ** On macOS/Linux:**
     ```bash 
         source venv/bin/activate
     ``` 
@@ -62,6 +62,7 @@ With your virtual environment active, install all the necessary Python libraries
 ```
 
 ### 4. Configure Your Google Gemini API Key 🔑
+
     To keep your API key secure and avoid exposing it directly in your code, we'll use a .env file:
         1. Create a file named .env in the root directory of your project (where app.py is located).
         2. Add your API key to this file in the following format:
