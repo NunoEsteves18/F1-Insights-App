@@ -40,18 +40,18 @@ It's highly recommended to use a virtual environment to manage your project's de
 python -m venv venv
 ```
 Activate the virtual environment:
-   * **On Windows (Command Prompt/CMD):** 
-    ```bash 
-        .\venv\Scripts\activate
-    ```
-    * **On Windows (PowerShell):** 
-    ```bash 
-        .\venv\Scripts\Activate.ps1
-    ```
-    * **On macOS/Linux:**
-    ```bash 
-        source venv/bin/activate
-    ``` 
+* **On Windows (Command Prompt/CMD):** 
+```bash 
+    .\venv\Scripts\activate
+```
+* **On Windows (PowerShell):** 
+```bash 
+    .\venv\Scripts\Activate.ps1
+```
+* **On macOS/Linux:**
+```bash 
+    source venv/bin/activate
+``` 
 You'll see (venv) at the beginning of your terminal's command line, indicating the environment is active.
 
 ### 3. Install Dependencies
@@ -64,22 +64,22 @@ With your virtual environment active, install all the necessary Python libraries
 ### 4. Configure Your Google Gemini API Key 🔑
 
 To keep your API key secure and avoid exposing it directly in your code, we'll use a .env file:
-    * **1. Create a file named .env in the root directory of your project (where app.py is located).**
-    * **2. Add your API key to this file in the following format:**
-        ```bash
-            GOOGLE_API_KEY=YOUR_API_KEY_HERE
-        ```
-        ⚠️ Replace YOUR_API_KEY_HERE with your actual Google Gemini API key. Do not use quotes around it.
-    * **3. Add .env to your .gitignore file to ensure your key is not accidentally committed to GitHub:**
-        ```bash
-            # .gitignore
-            .env
-        ```
+* **1. Create a file named .env in the root directory of your project (where app.py is located).**
+* **2. Add your API key to this file in the following format:**
+```bash
+    GOOGLE_API_KEY=YOUR_API_KEY_HERE
+```
+⚠️ Replace YOUR_API_KEY_HERE with your actual Google Gemini API key. Do not use quotes around it.
+* **3. Add .env to your .gitignore file to ensure your key is not accidentally committed to GitHub:**
+```bash
+    # .gitignore
+    .env
+```
 
 ### 5. Run the Streamlit Application ▶️
 
 Finally, execute the application from your terminal:
-    ```bash
-        streamlit run app.py
-    ```
+```bash
+    streamlit run app.py
+```
 The application will automatically open in your default web browser. If it doesn't, check your terminal for the local URL (usually http://localhost:8501).   
