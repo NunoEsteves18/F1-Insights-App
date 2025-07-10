@@ -63,18 +63,18 @@ With your virtual environment active, install all the necessary Python libraries
 
 ### 4. Configure Your Google Gemini API Key 🔑
 
-    To keep your API key secure and avoid exposing it directly in your code, we'll use a .env file:
-        1. Create a file named .env in the root directory of your project (where app.py is located).
-        2. Add your API key to this file in the following format:
-            ```bash
-                GOOGLE_API_KEY=YOUR_API_KEY_HERE
-            ```
-            ⚠️ Replace YOUR_API_KEY_HERE with your actual Google Gemini API key. Do not use quotes around it.
-        3. Add .env to your .gitignore file to ensure your key is not accidentally committed to GitHub:
-            ```bash
-                # .gitignore
-                .env
-            ```
+To keep your API key secure and avoid exposing it directly in your code, we'll use a .env file:
+    * **1. Create a file named .env in the root directory of your project (where app.py is located).**
+    * **2. Add your API key to this file in the following format:**
+        ```bash
+            GOOGLE_API_KEY=YOUR_API_KEY_HERE
+        ```
+        ⚠️ Replace YOUR_API_KEY_HERE with your actual Google Gemini API key. Do not use quotes around it.
+    * **3. Add .env to your .gitignore file to ensure your key is not accidentally committed to GitHub:**
+        ```bash
+            # .gitignore
+            .env
+        ```
 
 ### 5. Run the Streamlit Application ▶️
 
