@@ -11,7 +11,7 @@ This is an interactive Streamlit application that combines data from the [OpenF1
 
 ---
 
-## 🛠️ Prerequisites
+## 🛠️ Pre-Requisites
 
 Before you begin, ensure you have **Python installed** (version 3.9 or higher is recommended).
 
